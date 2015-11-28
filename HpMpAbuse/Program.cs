@@ -26,7 +26,7 @@ namespace HpMpAbuse {
 			Game.OnUpdate += Game_OnUpdate;
 			Game.OnWndProc += Game_OnWndProc;
 
-			Menu.AddItem(new MenuItem("hotkey", "Change hotkey").SetValue(new KeyBind('T', KeyBindType.Press)));
+			Menu.AddItem(new MenuItem("hotkey", "Change hotkey").SetValue(new KeyBind('V', KeyBindType.Press)));
 
 			var forcePick = new Menu("Force item picking", "forcePick");
 
